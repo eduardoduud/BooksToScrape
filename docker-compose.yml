@@ -1,0 +1,20 @@
+version: "3.1"
+
+volumes:
+  data:
+
+services:
+
+  db:
+    image: postgres:14.2-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: livros
+      POSTGRES_PASSWORD: eduardo
+      POSTGRES_USER: eduardo
+    ports:
+      - "5432:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+      - type: tmpfs
+        target: /dev/shm
