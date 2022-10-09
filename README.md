@@ -8,6 +8,6 @@ Sobre o projeto:
 - Utilizando a biblioteca BeautifulSoup para coletar os dados das páginas HTML.
 - Banco de dados Postgres rodando em Docker.
 - O código gera um arquivo csv e então um script em bash faz a inserção dos dados no banco.
-- Gerenciamento desses jobs utilizando o Apache Airflow.
+- Gerenciamento desses jobs utilizando o Apache Airflow via WSL
 - Script de coleta paralelizado. Workers coletam e armazenam os dados dos livros de uma página.
 - O script de inserção de dados no banco só roda quando o código python terminar de colear os dados.
