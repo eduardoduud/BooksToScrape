@@ -41,15 +41,10 @@ while(i<49):
             nota = +4
         if(livro.find('p', attrs={'class': 'star-rating Five'})):
             nota = +5
-            
-        print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-        print(nome)
-        print(preco)
-        print(nota)
-        print(estoque)
         dadoslivros.append([nome, preco, nota, estoque])
+        
     i= i+1
-    print(i)
     next = navegador.find_element(By.CLASS_NAME, 'next a').click()
+    
 dados = pd.DataFrame(dadoslivros, columns=['Nome', 'Preço', 'Nota', 'Estoque'])
 dados.to_csv('dadoslivros.csv', index=false)
