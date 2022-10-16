@@ -3,11 +3,10 @@ Projeto de Data Engineering - Webscraping com Python, Selenium e BeautifulSoup, 
 
 Sobre o projeto:
 
-- Webscraping realizado utilizando a linguagem Python
+- Webscraping realizado utilizando a linguagem Python com Docker
 - Utilizando a biblioteca Selenium para navegar entre os links das categorias e as páginas.
 - Utilizando a biblioteca BeautifulSoup para coletar os dados das páginas HTML.
+- O código gera um arquivo .csv e então se conecta no banco e faz a inserção dos dados desse arquivo .csv.
 - Banco de dados Postgres e Apache Airflow rodando em Docker.
-- O código gera um arquivo csv e então um script em bash faz a inserção dos dados no banco.
-- Gerenciamento desses jobs utilizando o Apache Airflow
-- Script de coleta paralelizado. Workers coletam e armazenam os dados dos livros de uma página.
-- O script de inserção de dados no banco só roda quando o código python terminar de colear os dados.
+- [Em desenvolvimento] Gerenciamento dos jobs utilizando o Apache Airflow
+- [Em desenvolvimento] Script de coleta paralelizado. Dockers simultâneos coletam e armazenam os dados dos livros de uma página no banco.
