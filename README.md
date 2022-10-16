@@ -1,5 +1,5 @@
 # BooksToScrape
-Projeto de Data Engineering - Webscraping com Python, Selenium e BeautifulSoup, Docked Postgres e Apache Airflow
+Projeto de Data Engineering - Webscraping com Python, Selenium e BeautifulSoup, Postgres e Apache Airflow, tudo modularizado e paralelizado em Docker
 
 Sobre o projeto:
 
