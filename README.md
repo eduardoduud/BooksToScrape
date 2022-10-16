@@ -31,3 +31,7 @@ Abra seu navegador e acesse `localhost:8080` com o usuário `airflow` e a senha 
 ### Acessando o Postgresql
 
 Abra o pgAdmin4 e adicione um banco com o ip `127.0.0.1` e porta `5432`, com o maintenance e username `airflow`
+
+# Executando o webscraping
+
+Dê o comando `docker run -it -rm "nomedaimagem"`, sendo o "nomedaimagem" o nome que você deu ao criar a imagem a partir do dockerfile
