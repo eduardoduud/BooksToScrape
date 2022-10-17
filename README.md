@@ -9,7 +9,7 @@ Sobre o projeto:
 - O código gera um arquivo .csv e então se conecta no banco e faz a inserção dos dados desse arquivo .csv.
 - Banco de dados Postgres e Apache Airflow rodando em Docker.
 - [Em desenvolvimento] Gerenciamento dos jobs utilizando o Apache Airflow
-- [Em desenvolvimento] Código de coleta paralelizado com Kubernetes. Containers simultâneos coletam e armazenam os dados dos livros de uma página no Postgresql.
+- [Em desenvolvimento] Orquestração dos containeres utilizando Kubernetes
 
 
 # Webscraping em Docker
